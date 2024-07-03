@@ -13,7 +13,7 @@ Este proyecto es un _**diseño de horario escolar básico**_, creado puramente c
 
 ### 👁️ Vista previa del proyecto
 ![Demo](/img/proyecto3.png)
-🔗 [link de vista previa]()
+🔗 [link de vista previa](https://horariodesign.vercel.app/)
 
 #### 👩‍💻 Contacto
 *Paola Guadalupe Méndez Cab*
