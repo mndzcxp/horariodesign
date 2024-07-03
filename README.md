@@ -12,12 +12,12 @@ Este proyecto es un _**diseño de horario escolar básico**_, creado puramente c
 + **Google Fonts:** Variedad de fuentes personalizadas
 
 ### 👁️ Vista previa del proyecto
-![Demo](/imagenes/vistaprevia.png)
-🔗 [link de vista previa](https://iniciodepinterest-omega.vercel.app/)
+![Demo](/imagenes/proyecto3.png)
+🔗 [link de vista previa]()
 
 #### 👩‍💻 Contacto
 *Paola Guadalupe Méndez Cab*
 
-✉️ paolamendezcab@gmail.com
+✉️ paaopaoos@gmail.com
 
 💼 [Mi LinkedIn](https://www.linkedin.com/in/paola-m%C3%A9ndez-b9530a313/)
