@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="author" content="Paola Méndez">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <meta name="keywords" content="horario,escuela,materias">
+    <title>Mi horario escolar</title>
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Satisfy&display=swap');
+      @import url('https://fonts.googleapis.com/css2?family=Balsamiq+Sans&family=Bebas+Neue&family=Satisfy&display=swap');
+      @import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic&display=swap');
+
+            body { 
+              display: grid;
+              grid-template-areas: 
+                "header header header"
+                "nav main ads"
+                "footer footer footer";
+              grid-template-rows: 120px 1fr 120px;
+              grid-template-columns: 20% 1fr 20%;
+              grid-gap: 10px;
+              height: 100vh;
+              margin: 0;
+              background-image: url("img/fondo4.jpg")
+              }
+
+            #pageHeader {
+              grid-area: header;
+            }
+            #pageFooter {
+              grid-area: footer;
+            }
+            #mainArticle { 
+              grid-area: main;      
+              }
+            #mainNav { 
+              grid-area: nav; 
+              }
+            #siteAds { 
+              grid-area: ads; 
+              }
+
+            nav, div {
+              padding: 23px;
+              border:2px solid #BDD3DF;
+              font-family: 'Balsamiq Sans', cursive;
+              font-size: 17px;
+            }
+
+            footer{
+              padding: 23px;
+              border:2px solid #BDD3DF;
+              font-family: 'Balsamiq Sans', cursive;
+              font-size: 10px;
+              text-align:center;
+            }
+
+            header{
+              border:2px solid #BDD3DF;
+              color: #61B1DE;
+              font-family: 'Satisfy', cursive;text-align:center;
+              font-size: 25px;
+            }
+
+            img{
+              margin:10px auto;
+              display: block;
+            }
+
+            main,dl{
+              font-family: 'Nanum Gothic', sans-serif;
+              font-size: 14px;
+            }
+
+            h3{
+              font-size: 25px;
+              font-family: 'Balsamiq Sans', cursive;
+              color: #61B1DE;
+              text-align:center;
+            }
+
+            h2{
+              font-size: 25px;
+              font-family: 'Balsamiq Sans', cursive;
+              text-align:center;
+            }
+
+            h4,h5{
+              font-size: 20px;
+              font-family: 'Balsamiq Sans', cursive;
+            }
+ 
+            table {
+                border-collapse: collapse;
+                }
+
+            table, th, td {
+                border: 1px #B6CDDA;
+                }
+    </style>
+</head>
+<body>
+  <header id="pageHeader">
+    <h1>Diseño y elaboración de páginas web</h1>
+    </header>
+  <main id="mainArticle">
+      <img src="img/Imagen5.png">
+      <h2>Asignatura optativa</h2>
+      <p>
+        Esta asignatura tiene como propósito que desarrolles la capacidad de diseñar y elaborar páginas Web a través del código HTML, utilizando el bloc de notas y posteriormente empleando un software especializado para el diseño dichas páginas. En este nivel se te proporcionan las herramientas necesarias para el desarrollo de una página Web, lo cual te servirá como recurso de apoyo para expresarte ante el público y publicar diversos materiales multimedia de estudio de manera creativa.
+      </p>
+      <h3>Competencias</h3>
+        <h4>Génericas</h4>
+        <ul>
+          <li>Se expresa en español en forma oral y escrita en diversas situaciones comunicativas, utilizando correctamente el idioma.</li>
+          <li>Usa las TIC en diversos contextos, de manera pertinente y responsable.</li>
+          <li>Aplica los conocimientos de acuerdo con el contexto y requerimientos de la situación, con pertinencia.</li>
+          <li>Trabaja de manera cooperativa con otros en ambientes multi, inter y transdisciplinarios.</li>
+          <li>Manifiesta compromiso con la calidad y la mejora continua en su desempeño académico y en su vida personal de manera responsable.</li>
+          <li>Trabaja diversas tareas en el ámbito académico y personal de manera eficaz yeficiente.</li>
+        </ul>
+        <h5>Disciplinares</h5>
+        <ul>
+          <li>CDBC 1. Utiliza las habilidades de comunicación oral y escrita en español, en lengua materna y en lengua extranjera ante los diversos y cambiantes contextos (local e internacional) con pertinencia, coherencia y creatividad apoyado con herramientas tecnológicas.</li>
+          <li>CDBC 3. UTILIZA las tecnologías de la información y comunicación con pertinencia, para su beneficio en la optimización de las actividades en los contextos personal, escolar y familiar, respetando la integridad de sus interlocutores.</li>
+          <li><strong>Competencia propedéutica 7:</strong> Utiliza los medios y recursos tecnológicos de forma activa y efectiva como herramientas que le permitan mejorar en todos los ámbitos en que se desempeña.</li>
+          <li>CDPC 8: Transmite sus ideas en una lengua extranjera mediante un discurso lógico, oral o escrito, congruente con la situación comunicativa.</li>
+        </ul>
+  </main>
+  <nav id="mainNav">
+    <ul style="list-style:none;">
+      <img src="img/Imagen14.png">
+        <li><a href="index.html">Página principal</a> </li> 
+    </ul>
+  </nav>
+    <div id="siteAds">
+        <img src="img/Imagen9.png">
+        <details>
+        <summary>Unidades Didácticas</summary>
+            <dl>
+                <dt><strong>Tema 1. </strong>Lenguaje HTML</dt>
+                <dt><strong>Tema 2. </strong>Hojas de Estilo Cascada</dt>
+                <dt><strong>Tema 3. </strong>Servidores de Aplicaciones</dt>
+            </dl>
+        </details>
+        <img src="img/Imagen10.png">
+        <details>
+        <summary>Profesor</summary>
+            <dl>
+                <dt><strong>Guillermo del Jesus Valdez Ramayo</strong></dt>
+                <dt>guillermo.valdez@correo.uady.mx</dt>
+            </dl>
+        </details>
+    </div>
+  <footer id="pageFooter">
+    <p><strong>Datos</strong></p>
+    <p>Paola Guadalupe Méndez Cab, CDO3
+  </footer>
+</body>
+</html>

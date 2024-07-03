@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="author" content="Paola Méndez">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <meta name="keywords" content="horario,escuela,materias">
+    <title>Mi horario escolar</title>
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Satisfy&display=swap');
+      @import url('https://fonts.googleapis.com/css2?family=Balsamiq+Sans&family=Bebas+Neue&family=Satisfy&display=swap');
+      @import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic&display=swap');
+
+            body { 
+              display: grid;
+              grid-template-areas: 
+                "header header header"
+                "nav main ads"
+                "footer footer footer";
+              grid-template-rows: 120px 1fr 120px;
+              grid-template-columns: 20% 1fr 20%;
+              grid-gap: 10px;
+              height: 100vh;
+              margin: 0;
+              background-image: url("img/fondo4.jpg")
+              }
+
+            #pageHeader {
+              grid-area: header;
+            }
+            #pageFooter {
+              grid-area: footer;
+            }
+            #mainArticle { 
+              grid-area: main;      
+              }
+            #mainNav { 
+              grid-area: nav; 
+              }
+            #siteAds { 
+              grid-area: ads; 
+              }
+
+            nav, div {
+              padding: 23px;
+              border:2px solid #BDD3DF;
+              font-family: 'Balsamiq Sans', cursive;
+              font-size: 17px;
+            }
+
+            footer{
+              padding: 23px;
+              border:2px solid #BDD3DF;
+              font-family: 'Balsamiq Sans', cursive;
+              font-size: 10px;
+              text-align:center;
+            }
+
+            header{
+              border:2px solid #BDD3DF;
+              color: #61B1DE;
+              font-family: 'Satisfy', cursive;text-align:center;
+              font-size: 25px;
+            }
+
+            img{
+              margin:10px auto;
+              display: block;
+            }
+
+            main,dl{
+              font-family: 'Nanum Gothic', sans-serif;
+              font-size: 14px;
+            }
+
+            h2{
+              font-size: 25px;
+              font-family: 'Balsamiq Sans', cursive;
+              text-align:center;
+            }
+
+            h3{
+              font-size: 25px;
+              font-family: 'Balsamiq Sans', cursive;
+              color: #61B1DE;
+              text-align:center;
+            }
+
+            table {
+                border-collapse: collapse;
+                }
+
+            table, th, td {
+                border: 1px #B6CDDA;
+                }
+    </style>
+</head>
+<body>
+  <header id="pageHeader">
+    <h1>Cálculo diferencial</h1>
+    </header>
+  <main id="mainArticle">
+      <img src="img/Imagen2.png">
+      <h2>Asignatura optativa</h2>
+      <p>
+          <strong>Competencia de la asignatura:</strong> Resolver problemas hipotéticos o de la vida real, relacionados con diversas ciencias, utilizando la función derivada y con ayuda de las TIC.
+      </p>
+      <h3>Contextualización</h3>
+      <p>
+        El Cálculo plantea una reformulación de las matemáticas elementales potenciadas con el concepto de límites, en otras palabras, el Cálculo toma las ideas fundamentales de la matemática elemental y las extrapola a situaciones más generales necesarias de conocer para resolver problemáticas de la vida cotidiana; además, el Cálculo es más dinámico a diferencia de la matemática tradicional que es más estática. 
+      </p>
+      <p>
+        Entre las situaciones de la matemática elemental que con el Cálculo Diferencial podemos generalizar se tienen, por ejemplo, de calcular la pendiente de una recta a calcular la pendiente de una curva, de determinar la recta tangente a una circunferencia a la recta tangente a cualquier curva, de la velocidad media de un objeto a su velocidad instantánea, de la aceleración media de un objeto a su aceleración instantánea.
+      </p>
+      <p>
+        Así también, el Cálculo Diferencial constituye una herramienta poderosa a través de la cual es posible conocer qué sucede cuando se optimiza un modelo matemático que atiende a una función determinada, lo que es de gran utilidad para las diferentes áreas del conocimiento, por ejemplo, en geometría interesa maximizar área y volúmenes, mientras que en física se busca minimizar distancias y tiempos; y en economía se trata de maximizar ganancias y minimizar los costos o tiempos de producción.
+      </p>
+      <p>
+        El Cálculo Diferencial en conjunto con otras ramas de las matemáticas de las que se apoya como la aritmética, el álgebra, la geometría, la trigonometría, la geometría analítica promueven el desarrollo de las competencias de egreso: Se expresa y se comunica, piensa crítica y reflexivamente, aprende de forma autónoma y trabaja en forma colaborativa.
+      </p>
+  </main>
+  <nav id="mainNav">
+    <img src="img/Imagen14.png">
+    <ul style="list-style:none;">
+        <li><a href="index.html">Página principal</a> </li> 
+    </ul>
+  </nav>
+    <div id="siteAds">
+        <img src="img/Imagen9.png">
+        <details>
+        <summary>Unidades Didácticas</summary>
+            <dl>
+                <dt><strong>Unidad 1. La función derivada.</strong></dt>
+                <dd>Resolver problemas en diversas ciencias utilizando la función derivada como razón o tasa de cambio instantáneo.</dd>
+                <dt><strong>Unidad 2. Aplicaciones de la función derivada. </strong></dt>
+                <dd>Resolver problemas en diversas ciencias utilizando la función derivada.</dd>
+            </dl>
+        </details>
+        <img src="img/Imagen10.png">
+        <details>
+        <summary>Profesor</summary>
+            <dl>
+                <dt><strong>Eunice Elizabeth Herrera Sierra</strong></dt>
+                <dt>eunice.herrera@correo.uady.mx</dt>
+            </dl>
+        </details>
+    </div>
+  <footer id="pageFooter">
+    <p><strong>Datos</strong></p>
+    <p>Paola Guadalupe Méndez Cab, CDO3
+  </footer>
+</body>
+</html>

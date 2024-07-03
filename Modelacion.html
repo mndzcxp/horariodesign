@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="author" content="Paola Méndez">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <meta name="keywords" content="horario,escuela,materias">
+    <title>Mi horario escolar</title>
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Satisfy&display=swap');
+      @import url('https://fonts.googleapis.com/css2?family=Balsamiq+Sans&family=Bebas+Neue&family=Satisfy&display=swap');
+      @import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic&display=swap');
+
+            body { 
+              display: grid;
+              grid-template-areas: 
+                "header header header"
+                "nav main ads"
+                "footer footer footer";
+              grid-template-rows: 120px 1fr 120px;
+              grid-template-columns: 20% 1fr 20%;
+              grid-gap: 10px;
+              height: 100vh;
+              margin: 0;
+              background-image: url("img/fondo4.jpg")
+              }
+
+            #pageHeader {
+              grid-area: header;
+            }
+            #pageFooter {
+              grid-area: footer;
+            }
+            #mainArticle { 
+              grid-area: main;      
+              }
+            #mainNav { 
+              grid-area: nav; 
+              }
+            #siteAds { 
+              grid-area: ads; 
+              }
+
+            nav, div {
+              padding: 23px;
+              border:2px solid #BDD3DF;
+              font-family: 'Balsamiq Sans', cursive;
+              font-size: 17px;
+            }
+
+            footer{
+              padding: 23px;
+              border:2px solid #BDD3DF;
+              font-family: 'Balsamiq Sans', cursive;
+              font-size: 10px;
+              text-align:center;
+            }
+
+            header{
+              border:2px solid #BDD3DF;
+              color: #61B1DE;
+              font-family: 'Satisfy', cursive;text-align:center;
+              font-size: 25px;
+            }
+
+            img{
+              margin:10px auto;
+              display: block;
+            }
+
+            main,dl{
+              font-family: 'Nanum Gothic', sans-serif;
+              font-size: 14px;
+            }
+
+            h2, h5{
+              font-size: 25px;
+              font-family: 'Balsamiq Sans', cursive;
+              color: #61B1DE;
+              text-align:center;
+            }
+
+            h3,h4{
+              font-size: 20px;
+              font-family: 'Balsamiq Sans', cursive;
+            }
+ 
+            table {
+                border-collapse: collapse;
+                }
+
+            table, th, td {
+                border: 1px #B6CDDA;
+                }
+    </style>
+</head>
+<body>
+  <header id="pageHeader">
+    <h1>Modelación matemática</h1>
+    </header>
+  <main id="mainArticle">
+      <img src="img/matematicas.png">
+      <p>
+        La <strong>Modelación matemática II</strong> contribuye a la representación de situaciones relacionadas con la vida cotidiana, mediante modelos matemáticos.
+      </p>
+      <p>
+        Con esta asignatura el estudiante adquiere herramientas mediante procesos de análisis e interpretación que le permitirán resolver problemas de la vida cotidiana aplicando las funciones trascendentes y las sucesiones y series matemáticas que son útiles para la ciencia aplicada.
+      </p>
+      <p>
+        Asimismo, con respecto a las funciones trascendentes, el estudiante modelará situaciones administrativas, sociales y naturales, reales o hipotéticas, empleando el lenguaje verbal, algebraico o gráfico, y apoyándose del uso pertinente de las TIC. 
+      </p>
+      <h2>Competencias</h2>
+      <p>
+          Resuelve problemas de las ciencias naturales y sociales modelados con funciones trascendentes, considerando la pertinencia del uso de las TIC.  
+      </p>
+        <h3>Génericas</h3>
+        <ul>
+          <li>Usa las TIC en diversos contextos, de manera pertinente y responsable.</li>
+          <li>Gestiona el conocimiento y el aprendizaje autónomo en sus intervenciones académicas y en otros contextos, de manera pertinente.</li>
+          <li>Soluciona problemas de forma innovadora y creativa utilizando habilidades de investigación.</li>
+          <li>Aplica los conocimientos de acuerdo con el contexto y requerimientos de la situación, con pertinencia.</li>
+          <li>Trabaja de manera colaborativa con otros en ambientes multi, inter y transdisciplinarios</li>
+          <li>Manifiesta compromiso con la calidad y la mejora continua en su desempeño académico y en su vida personal de manera responsable.</li>
+        </ul>
+        <h4>Disciplinares</h4>
+        <ul>
+          <li>CDBM2. Utiliza el lenguaje matemático en la argumentación de soluciones de problemas de situaciones de su vida cotidiana de manera formal y organizada.</li>
+          <li>CDBM3. Interpreta tablas, gráficas, mapas, diagramas y textos con símbolos matemáticos y científicos que se le presentan en situaciones de su vida cotidiana en la resolución de problemas.</li>
+          <li>CDBM4. Diseña modelos matemáticos para la interpretación de situaciones de su vida cotidiana aplicando diferentes enfoques.</li>
+          <li>CDBM5. Resuelve problemas de su vida cotidiana y situaciones de su entorno mediante diferentes enfoques matemáticos y argumentando las soluciones con un lenguaje verbal, matemático y aplicando el uso de las TIC.</li>
+        </ul>
+  </main>
+  <nav id="mainNav">
+    <img src="img/Imagen14.png">
+    <ul style="list-style:none;">
+        <li><a href="index.html">Página principal</a> </li> 
+    </ul>
+  </nav>
+    <div id="siteAds">
+        <img src="img/Imagen9.png">
+        <details>
+        <summary>Unidades Didácticas</summary>
+            <dl>
+                <dt><strong>Unidad 1. Series y sucesiones</strong></dt>
+                    <dd>Progresión Aritmética</dd>
+                    <dd>Progresión geométrica</dd>
+                    <dd>Progresión Armónica</dd>
+                    <dd>Problemas de la vida cotidiana que involucren las series y sucesiones</dd>
+                <dt><strong>Unidad 2. Funciones trascendentales</strong></dt>
+                    <dd>Dominio</dd>
+                    <dd>Rango</dd>
+                    <dd>Gráfica</dd>
+                    <dd>Otros elementos propios de la función</dd>
+                    <dd>Problemas que involucren las funciones trascendentales trigonométricas, exponenciales, y logarítmicas</dd>
+            </dl>
+        </details>
+        <img src="img/Imagen10.png">
+        <details>
+        <summary>Profesor</summary>
+            <dl>
+                <dt><strong>Eunice Elizabeth Herrera Sierra</strong></dt>
+                <dt>eunice.herrera@correo.uady.mx</dt>
+            </dl>
+        </details>
+    </div>
+  <footer id="pageFooter">
+    <p><strong>Datos</strong></p>
+    <p>Paola Guadalupe Méndez Cab, CDO3
+  </footer>
+</body>
+</html>

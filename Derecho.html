@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="author" content="Paola Méndez">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <meta name="keywords" content="horario,escuela,materias">
+    <title>Mi horario escolar</title>
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Satisfy&display=swap');
+      @import url('https://fonts.googleapis.com/css2?family=Balsamiq+Sans&family=Bebas+Neue&family=Satisfy&display=swap');
+      @import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic&display=swap');
+
+            body { 
+              display: grid;
+              grid-template-areas: 
+                "header header header"
+                "nav main ads"
+                "footer footer footer";
+              grid-template-rows: 120px 1fr 120px;
+              grid-template-columns: 20% 1fr 20%;
+              grid-gap: 10px;
+              height: 100vh;
+              margin: 0;
+              background-image: url("img/fondo4.jpg")
+              }
+
+            #pageHeader {
+              grid-area: header;
+            }
+            #pageFooter {
+              grid-area: footer;
+            }
+            #mainArticle { 
+              grid-area: main;      
+              }
+            #mainNav { 
+              grid-area: nav; 
+              }
+            #siteAds { 
+              grid-area: ads; 
+              }
+
+            nav, div {
+              padding: 23px;
+              border:2px solid #BDD3DF;
+              font-family: 'Balsamiq Sans', cursive;
+              font-size: 17px;
+            }
+
+            footer{
+              padding: 23px;
+              border:2px solid #BDD3DF;
+              font-family: 'Balsamiq Sans', cursive;
+              font-size: 10px;
+              text-align:center;
+            }
+
+            header{
+              border:2px solid #BDD3DF;
+              color: #61B1DE;
+              font-family: 'Satisfy', cursive;text-align:center;
+              font-size: 25px;
+            }
+
+            img{
+              margin:10px auto;
+              display: block;
+            }
+
+            main,dl{
+              font-family: 'Nanum Gothic', sans-serif;
+              font-size: 14px;
+            }
+
+            h2{
+              font-size: 25px;
+              font-family: 'Balsamiq Sans', cursive;
+              color: #61B1DE;
+              text-align:center;
+            }
+
+            table {
+                border-collapse: collapse;
+                }
+
+            table, th, td {
+                border: 1px #B6CDDA;
+                }
+    </style>
+</head>
+<body>
+  <header id="pageHeader">
+    <h1>Derecho en la vida ciudadana</h1>
+    </header>
+  <main id="mainArticle">
+      <img src="img/derecho.png">
+      <p>
+          La Asignatura <strong>el Derecho en la vida ciudadana</strong> le permitirá al estudiante adquirir conciencia de sus derechos y obligaciones como ciudadano y la importancia de su actuar social dentro de un marco legal a nivel nacional y mundial. Además, le brinda herramientas básicas para la toma de decisiones en diferentes ámbitos de la vida cotidiana con sentido ético y en atención a sus derechos y obligaciones. 
+      </p>
+      <h2>Enfoque</h2>
+      <p>
+        El enfoque de la asignatura se dirige al reconocimiento de la realidad jurídica del país y su implicación en la convivencia social de su entorno. A través de los contenidos se pretende fomentar de manera crítica y reflexiva, la participación e intervención ciudadana orientada al fortalecimiento del Estado de Derecho.
+      </p>
+  </main>
+  <nav id="mainNav">
+    <img src="img/Imagen14.png">
+    <ul style="list-style:none;">
+        <li><a href="index.html">Página principal</a> </li> 
+    </ul>
+  </nav>
+    <div id="siteAds">
+        <img src="img/Imagen10.png">
+        <details>
+        <summary>Profesor</summary>
+            <dl>
+                <dt><strong>Edmundo Armando Ceh Martinez</strong></dt>
+                <dt>armando.ceh@correo.uady.mx</dt>
+            </dl>
+        </details>
+    </div>
+  <footer id="pageFooter">
+    <p><strong>Datos</strong></p>
+    <p>Paola Guadalupe Méndez Cab, CDO3
+  </footer>
+</body>
+</html>

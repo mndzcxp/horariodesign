@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="author" content="Paola Méndez">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <meta name="keywords" content="horario,escuela,materias">
+    <title>Mi horario escolar</title>
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Satisfy&display=swap');
+      @import url('https://fonts.googleapis.com/css2?family=Balsamiq+Sans&family=Bebas+Neue&family=Satisfy&display=swap');
+      @import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic&display=swap');
+
+            body { 
+              display: grid;
+              grid-template-areas: 
+                "header header header"
+                "nav main ads"
+                "footer footer footer";
+              grid-template-rows: 120px 1fr 120px;
+              grid-template-columns: 20% 1fr 20%;
+              grid-gap: 10px;
+              height: 100vh;
+              margin: 0;
+              background-image: url("img/fondo4.jpg")
+              }
+
+            #pageHeader {
+              grid-area: header;
+            }
+            #pageFooter {
+              grid-area: footer;
+            }
+            #mainArticle { 
+              grid-area: main;      
+              }
+            #mainNav { 
+              grid-area: nav; 
+              }
+            #siteAds { 
+              grid-area: ads; 
+              }
+
+            nav, div {
+              padding: 23px;
+              border:2px solid #BDD3DF;
+              font-family: 'Balsamiq Sans', cursive;
+              font-size: 17px;
+            }
+
+            footer{
+              padding: 23px;
+              border:2px solid #BDD3DF;
+              font-family: 'Balsamiq Sans', cursive;
+              font-size: 10px;
+              text-align:center;
+            }
+
+            header{
+              border:2px solid #BDD3DF;
+              color: #61B1DE;
+              font-family: 'Satisfy', cursive;text-align:center;
+              font-size: 25px;
+            }
+
+            img{
+              margin:10px auto;
+              display: block;
+            }
+
+            main,dl{
+              font-family: 'Nanum Gothic', sans-serif;
+              font-size: 14px;
+            }
+
+            h2{
+              font-size: 25px;
+              font-family: 'Balsamiq Sans', cursive;
+              color: #61B1DE;
+              text-align:center;
+            }
+
+            table {
+                border-collapse: collapse;
+                }
+
+            table, th, td {
+                border: 1px #B6CDDA;
+                }
+    </style>
+</head>
+<body>
+  <header id="pageHeader">
+    <h1>Valores a través del arte y deporte</h1>
+    </header>
+  <main id="mainArticle">
+      <img src="img/Imagen4.png">
+      <p>
+          La asignatura <strong>Valores a través del arte y del deporte</strong>, favorecerá en el estudiante la reflexión sobre la importancia de asumir actitudes, valores y normas de comportamiento que le permitan establecer relaciones interpersonales de respeto, honestidad, armonía, en el ambiente deportivo-artístico, promoviendo que éstas actitudes y valores trasciendan en otros contextos de su vida, beneficiándolo en la construcción de relaciones sanas y constructivas, que le permitan tener una adecuada adaptación en dichos contextos. 
+      </p>
+      <h2>Competencia de la asignatura</h2>
+      <p>
+        La competencia a desarrollar en la asignatura: promueve la práctica de los valores en el deporte y el arte, en un marco de respeto a la diversidad cultural.
+      </p>
+  </main>
+  <nav id="mainNav">
+    <img src="img/Imagen14.png">
+    <ul style="list-style:none;">
+        <li><a href="index.html">Inicio</a> </li> 
+    </ul>
+  </nav>
+    <div id="siteAds">
+        <img class= "centrado"  src="img/Imagen9.png">
+        <details>
+        <summary>Unidades Didácticas</summary>
+            <dl>
+                <dt><strong>Unidad 1. </strong>Valores en el deporte</dt>
+                <dt><strong>Unidad 2. </strong>Arte y valores</dt>
+                <dt><strong>Unidad 3. </strong>Valores a través del arte y del deporte</dt>
+            </dl>
+        </details>
+        <img src="img/Imagen10.png">
+        <details>
+        <summary>Profesor</summary>
+            <dl>
+                <dt><strong>Jesús Enrique Aguilar Martínez</strong></dt>
+                <dt>enrique.aguilar@correo.uady.mx</dt>
+            </dl>
+        </details>
+    </div>
+  <footer id="pageFooter">
+    <p><strong>Datos</strong></p>
+    <p>Paola Guadalupe Méndez Cab, CDO3
+  </footer>
+</body>
+</html>

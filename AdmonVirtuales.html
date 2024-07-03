@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="author" content="Paola Méndez">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <meta name="keywords" content="horario,escuela,materias">
+    <title>Mi horario escolar</title>
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Satisfy&display=swap');
+      @import url('https://fonts.googleapis.com/css2?family=Balsamiq+Sans&family=Bebas+Neue&family=Satisfy&display=swap');
+      @import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic&display=swap');
+
+            body { 
+              display: grid;
+              grid-template-areas: 
+                "header header header"
+                "nav main ads"
+                "footer footer footer";
+              grid-template-rows: 120px 1fr 120px;
+              grid-template-columns: 20% 1fr 20%;
+              grid-gap: 10px;
+              height: 100vh;
+              margin: 0;
+              background-image: url("img/fondo4.jpg")
+              }
+
+            #pageHeader {
+              grid-area: header;
+            }
+            #pageFooter {
+              grid-area: footer;
+            }
+            #mainArticle { 
+              grid-area: main;      
+              }
+            #mainNav { 
+              grid-area: nav; 
+              }
+            #siteAds { 
+              grid-area: ads; 
+              }
+
+            nav, div {
+              padding: 23px;
+              border:2px solid #BDD3DF;
+              font-family: 'Balsamiq Sans', cursive;
+              font-size: 17px;
+            }
+
+            footer{
+              padding: 23px;
+              border:2px solid #BDD3DF;
+              font-family: 'Balsamiq Sans', cursive;
+              font-size: 10px;
+              text-align:center;
+            }
+
+            header{
+              border:2px solid #BDD3DF;
+              color: #61B1DE;
+              font-family: 'Satisfy', cursive;text-align:center;
+              font-size: 25px;
+            }
+
+            img{
+              margin:10px auto;
+              display: block;
+            }
+
+            main,dl{
+              font-family: 'Nanum Gothic', sans-serif;
+              font-size: 14px;
+            }
+
+            h2, h5{
+              font-size: 25px;
+              font-family: 'Balsamiq Sans', cursive;
+              color: #61B1DE;
+              text-align:center;
+            }
+
+            h3,h4{
+              font-size: 20px;
+              font-family: 'Balsamiq Sans', cursive;
+            }
+ 
+            table {
+                border-collapse: collapse;
+                }
+
+            table, th, td {
+                border: 1px #B6CDDA;
+                }
+    </style>
+</head>
+<body>
+  <header id="pageHeader">
+    <h1>Administrador de comunidades virtuales</h1>
+    </header>
+  <main id="mainArticle">
+      <img src="img/comunidadesvirtuales.png">
+      <p>
+          La asignatura Administrador de comunidades virtuales I, establece un plan estratégico del manejo de las comunidades virtuales y redes sociales con objetivos claros y beneficios esperados; desarrolla estrategias de seguimiento, monitoreo y solución de situaciones críticas que se pueden presentar en la interacción con los usuarios y clientes, manteniendo un ambiente armónico y de experiencias positivas en las comunidades sociales, así como gestiona los recursos para el logro de los objetivos planificados, adaptándose de manera gradual a los cambios experimentados. 
+      </p>
+      <p>
+        Esta asignatura es esencial para el desarrollo del perfil de egreso, ya que contribuye en el desarrollo de las competencias genéricas relacionadas con la expresión en español, el uso de las TIC, la solución de problemas, así como en su comportamiento ético y el trabajo en equipo colaborativo.
+      </p>
+      <h2>Competencias</h2>
+        <h3>Génericas</h3>
+        <ul>
+          <li>Se expresa en español en forma oral y escrita en diversas situaciones comunicativas, utilizando correctamente el idioma.</li>
+          <li>Usa las TIC en diversos contextos, de manera pertinente y responsable.</li>
+          <li>Trabaja de manera cooperativa con otros en ambientes multi, inter y transdisciplinarios.</li>
+          <li>Resuelve problemas en contextos locales, nacionales e internacionales, considerando los criterios del desarrollosostenible.</li>
+          <li>Manifiesta comportamientos éticos en los ámbitos en los que se desenvuelve, de maneratransparente.</li>
+          <li>Trabaja diversas tareas en el ámbito académico y personal de manera eficaz yeficiente.</li>
+        </ul>
+        <h4>Disciplinares</h4>
+        <ul>
+          <li>CDBH 1 Propone acciones para la solución a problemas de su entorno con una actitud crítica y reflexiva.</li>
+          <li>CDBN 5 Realiza acciones sustentables para la conservación del ambiente, manteniendo el equilibrio ecológico con responsabilidad social y de acuerdo a los requerimientos del entorno.</li>
+          <li>CDBCS3 Propone alternativas emprendedoras, a situaciones de la realidad social, económica y financiera, considerando las necesidades, condiciones y problemáticas de su entorno.</li>
+          <li>CDBC 1 Utiliza las habilidades de comunicación oral y escrita en español, en lengua materna y en lengua extranjera ante los diversos y cambiantes contextos (local, nacional e internacional) con pertinencia, coherencia y creatividad apoyado con herramientas tecnológicas.</li>
+          <li>CPSM Implementa un plan de social media y community manager pertinente a las necesidades actuales con visión prospectiva, rigor académico y ética profesional.</li>
+        </ul>
+  </main>
+  <nav id="mainNav">
+    <img src="img/Imagen14.png">
+    <ul style="list-style:none;">
+        <li><a href="index.html">Página principal</a> </li> 
+    </ul>
+  </nav>
+    <div id="siteAds">
+        <img class= "centrado"  src="img/Imagen9.png">
+        <details>
+        <summary>Unidades Didácticas</summary>
+            <dl>
+                <dt><strong>Tema 1.</strong> Funciones del Community Manager</dt>
+                <dt><strong>Tema 2.</strong> Desarrollo de Habilidades del Community Manager</dt>
+                <dt><strong>Tema 3.</strong> La Planificación Estratégica</dt>
+                <dt><strong>Tema 4.</strong> El retorno de inversión en las redes sociales</dt>
+            </dl>
+        </details>
+        <img src="img/Imagen10.png">
+        <details>
+        <summary>Profesor</summary>
+            <dl>
+                <dt><strong>Juan Carlos Canché Bote</strong></dt>
+                <dt>jccbote@gmail.com</dt>
+            </dl>
+        </details>
+    </div>
+  <footer id="pageFooter">
+    <p><strong>Datos</strong></p>
+    <p>Paola Guadalupe Méndez Cab, CDO3
+  </footer>
+</body>
+</html>
