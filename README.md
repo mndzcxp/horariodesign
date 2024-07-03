@@ -12,7 +12,7 @@ Este proyecto es un _**diseño de horario escolar básico**_, creado puramente c
 + **Google Fonts:** Variedad de fuentes personalizadas
 
 ### 👁️ Vista previa del proyecto
-![Demo](/imagenes/proyecto3.png)
+![Demo](/img/proyecto3.png)
 🔗 [link de vista previa]()
 
 #### 👩‍💻 Contacto
